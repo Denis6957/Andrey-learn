@@ -10,7 +10,22 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int a, b, c;
+            Console.WriteLine("Введите первое число:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите второе число:");
+            int b = Convert.ToInt32(Console.ReadLine());
+                if ()
+            {
+                Console.WriteLine("Хуй");
+            }
+                else if (a == b == c)
+            {
+                Console.WriteLine("Числа равны");
+            }    
+                else (a == b || b == c || a == c)
+                    Console.WriteLine("Два числа из введенных равны между собой");
+            Console.ReadKey();
+
         }
     }
 }
